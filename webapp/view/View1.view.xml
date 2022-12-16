@@ -1,0 +1,57 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tcs.fin.payroll.controller.View1">
+<Page title="View 1">
+<headerContent>
+  <!--onNext function according to the press -->
+   <Button icon ="sap-icon://action" press = "onNext">
+   </Button>
+</headerContent>
+<content>
+
+<SearchField id ="idSearch" search="onSearch"/>
+<List id="idList" items="{/fruits}"  selectionChange="onSelectItem"  delete="onDelete"  mode ="SingleSelectMaster">
+<headerToolbar>
+<Toolbar>
+<ToolbarSpacer></ToolbarSpacer>
+  <Button icon="sap-icon://delete" press="onDeleteItem"></Button>
+</Toolbar>
+</headerToolbar>
+<items>
+<!-- <DisplayListItem label="Apple" value ="Most powerfull antibiotic on planet"/>
+<StandardListItem title="Banana" description="Biggest source of potassium" icon ="https://images.immediate.co.uk/production/volatile/sites/30/2017/01/Bananas-218094b-scaled.jpg"/> -->
+<ObjectListItem title ="{name}" intro="{type} " icon="{imageURL}"  number="{price}" numberUnit="{currency}">
+<firstStatus>
+<ObjectStatus text="{status}" state="{ path:'status', formatter :'.formatter.getStatus'}"></ObjectStatus>
+</firstStatus>
+</ObjectListItem>
+<!-- <InputListItem>
+  <content>
+    <HBox>
+        <Text class="sapUi5SmallMarginTop" text="Which is best fruit for skin" />
+        <Input />
+    </HBox> 
+  </content>-->
+<!-- </InputListItem>
+<CustomListItem>
+<SegmentedButton>
+    <buttons>
+     <Button text="Low"/>
+     <Button text="Medium"/>
+     <Button text="High"/>
+    </buttons>
+</SegmentedButton>
+</CustomListItem>
+<ActionListItem text="Order Now!" press="onNext">
+
+</ActionListItem>-->
+</items> 
+
+</List>
+
+</content>
+<footer>
+<Toolbar>
+</Toolbar> 
+</footer>
+    
+</Page>
+</mvc:View>

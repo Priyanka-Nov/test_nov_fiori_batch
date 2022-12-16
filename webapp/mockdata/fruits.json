@@ -1,0 +1,240 @@
+{
+    "fruits":[
+        {
+            "name":"Apple",
+            "type":"Alkaline",
+            "color":"Red",
+            "healthBenefit":"Good for Weight Loss",
+            "imageURL":"https://media.istockphoto.com/id/185262648/photo/red-apple-with-leaf-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=gUTvQuVPUxUYX1CEj-N3lW5eRFLlkGrU_cwwwOWxOh8=",
+            "price":100,
+            "currency":"INR",
+            "status":"Available"
+        },
+        {
+            "name":"Banana",
+            "type":"Alkaline",
+            "color":"Yellow",
+            "healthBenefit":"Good source of potassium",
+            "imageURL":"https://thumbs.dreamstime.com/b/sliced-banana-isolated-white-background-58835288.jpg",
+            "price":50,
+            "currency":"INR",
+            "status":"Available"
+        },
+        {
+            "name":"Mango",
+            "type":"Acidic",
+            "color":"Yellow",
+            "healthBenefit":"Good for eyes",
+            "imageURL":"https://www.newbusinessage.com/img/news/20220511014752_1256.750@2x.jpg",
+            "price":120,
+            "currency":"INR",
+            "status":"Available"
+        },
+        {
+            "name":"Honeydew",
+            "type":"Alkaline",
+            "color":"Browen",
+            "healthBenefit":"Good for bones ",
+            "imageURL":"https://media.istockphoto.com/id/1291607543/photo/fresh-ripe-melons-on-the-wooden-table.jpg?s=612x612&w=0&k=20&c=PDtwcL6wUGmVIeGF6o2J6q3RZ17_RKfGzXWx10-ISdE=",
+            "price":90,
+            "currency":"INR",
+            "status":"Available"
+        },
+        {
+            "name":"Grape",
+            "type":"critic",
+            "color":"Red",
+            "healthBenefit":"Good for heart health ",
+            "imageURL":"https://thumbs.dreamstime.com/b/three-strawberries-strawberry-leaf-white-background-114284301.jpg",
+            "price":200,
+            "currency":"INR",
+            "status":"Available"
+        },
+        {
+            "name":"stramberry",
+            "type":"Vinegar",
+            "color":"Red",
+            "healthBenefit":"Good for Blood pressure",
+            "imageURL":"https://media.istockphoto.com/id/471674664/photo/two-strawberries-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=a5g5o0t4M5qGInHo4gKNa07TRdz0HHzZ31UmGW9HuBk=",
+            "price":180,
+            "currency":"INR",
+            "status":"Out of Stock"
+        },
+        {
+            "name":"Watermelon",
+            "type":"Alkaline",
+            "color":"Green",
+            "healthBenefit":"Good for health",
+            "imageURL":"data:image/jpeg;base64,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",
+            "price":155,
+            "currency":"INR",
+            "status":"Discontinued"
+        },
+        {
+            "name":"Coconut",
+            "type":"Alkaline",
+            "color":"Green",
+            "healthBenefit":"Good for digest",
+            "imageURL":"data:image/jpeg;base64,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",
+            "price":150,
+            "currency":"INR",
+            "status":"Out of Stock"
+        },
+        {
+            "name":"Orange",
+            "type":"critic",
+            "color":"Orange",
+            "healthBenefit":"Good for immune system",
+            "imageURL":"https://media.istockphoto.com/id/1227301369/photo/whole-cross-section-and-quarter-of-fresh-organic-navel-orange-with-leaves-in-perfect-shape-on.jpg?b=1&s=170667a&w=0&k=20&c=uimgulwrNTf72rAbIOdLvObEgsJSZoCqWm9Qxojjl7Q=",
+            "price":120,
+            "currency":"INR",
+            "status":"Discontinued"
+        },
+        {
+            "name":"Blackberry",
+            "type":"Alkaline",
+            "color":"Black",
+            "healthBenefit":"Good for Boost Brain",
+            "imageURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Blackberries_%28Rubus_fruticosus%29.jpg/800px-Blackberries_%28Rubus_fruticosus%29.jpg",
+            "price":130,
+            "currency":"INR",
+            "status":"Available"
+        }
+    ],
+    "suppliers":[
+    {
+        "name":"Agrilance Private Limited",
+        "city":"Thane",
+        "contactPerson":"Shiva",
+        "contactNo" :8234567806,
+        "sinceWhen":1999,
+        "fruits":["Apple","Kiwi","fig","Chiku"]
+     },
+    {
+        "name":"East West Agro",
+        "city":"Mumbai",
+        "contactPerson":"Priyanka",
+        "contactNo" :9123456766,
+        "sinceWhen":1998,
+        "fruits":["Kiwi","Apple","Pomegranates","Guava"]
+    },
+    {
+        "name":"Kodia Fresh Private Limited",
+        "city":"Pune",
+        "contactPerson":"Raj",
+        "contactNo" :9123456768,
+        "sinceWhen":1996,
+        "fruits":["Kiwi","Watermelon","Cherries","Custard Apple"]
+    },
+    {
+        "name":"Agrilance Private Limited",
+        "city":"Thane",
+        "contactPerson":"Rahul",
+        "contactNo" :8234567806,
+        "sinceWhen":1999,
+        "fruits":["Apple","Kiwi","fig","Chiku"]
+     },
+     {
+        "name":"Varn Agrochem",
+        "city":"Jamner",
+        "contactPerson":"Shiv",
+        "contactNo" :8234555806,
+        "sinceWhen":1995,
+        "fruits":["Soursop","Guava","Cherries","Chiku"]
+     },
+     {
+        "name":"Bengal Food Products",
+        "city":"South",
+        "contactPerson":"Devesh",
+        "contactNo" :8457867806,
+        "sinceWhen":1994,
+        "fruits":["Orange","Apple","fig","Cherry"]
+     },
+     {
+        "name":"TrustSEAL",
+        "city":"Bengaluru",
+        "contactPerson":"Ashutosh",
+        "contactNo" :8237567806,
+        "sinceWhen":1993,
+        "fruits":["Manago","Kiwi","Watermilion","Chiku"]
+     },
+     {
+        "name":"Geeta Exports",
+        "city":"Ghaziabad",
+        "contactPerson":"Ajay",
+        "contactNo" :8234567806,
+        "sinceWhen":1992,
+        "fruits":["Apple","Kiwi","Orange","Chiku"]
+     },
+     {
+        "name":"A Grade Choyote",
+        "city":"Kodaikanal",
+        "contactPerson":"Neha",
+        "contactNo" :8234566677,
+        "sinceWhen":1991,
+        "fruits":["Orange","Kiwi","fig","Apple"]
+     }],
+    "cities":[{
+        "name":"Mumbai",
+        "state":"Maharashtra",
+        "population":"11.42 C",
+        "famousFor":"Dream City"
+    },{
+        "name":"Jaipur",
+        "state":"Rajasthan",
+        "population":"6.89 C",
+        "famousFor":"Pink city"
+    },{
+        "name":"Jamnagar",
+        "state":"Gujarat",
+        "population":"6.27 C",
+        "famousFor":"Rich Culture"
+    },
+    {
+        "name":"Lucknow",
+        "state":"Uttar Pradesh",
+        "population":"6.27 C",
+        "famousFor":"Mango"
+    },
+    {
+        "name":"Shimla",
+        "state":"Himachal Pradesh",
+        "population":"5.27 C",
+        "famousFor":"Adventure"
+    },
+    {
+        "name":"Chandigarh",
+        "state":"Punjab",
+        "population":"4.66 C",
+        "famousFor":"Mango"
+    },
+    {
+        "name":"Dehradun",
+        "state":"Uttarakhand",
+        "population":"7.27 C",
+        "famousFor":"Hindu piligrimage"
+    },
+    {
+        "name":"Jammu & Kashmir",
+        "state":"Kashmir",
+        "population":"6.55 C",
+        "famousFor":"Apple"
+    },
+    {
+        "name":"Kochi",
+        "state":"Kerala",
+        "population":"4.27 C",
+        "famousFor":"Beauty"
+    },
+    {
+        "name":"Bangalore",
+        "state":"Karnataka",
+        "population":"9.25 C",
+        "famousFor":"IT exporter"
+    }
+
+
+
+
+]
+}
